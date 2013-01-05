@@ -594,6 +594,8 @@ a:hover.no-underline {
 		margin-right: 105px;
 	}
 	
+	.nav-tabs{margin-left:35px;}
+	
 }
 
 
@@ -604,6 +606,8 @@ a:hover.no-underline {
 		top: -20px;
 		left: 20px;
 	}
+	
+	.nav-tabs{margin-left:45px;}
 }
 
 @media (max-width: 1199px) {
@@ -628,6 +632,7 @@ a:hover.no-underline {
 
 @media (min-width: 768px) and (max-width: 979px) {
 	.content-header h2{display:block; margin-left:20px; margin-top: -15px; white-space: normal;}
+	.nav-tabs {margin-left:20px;}
 	.tabbed-content .content .description {padding: 0px;}
 	.tabbed-content .span6, .tabbed-content .span7, .tabbed-content .span11 {margin-right: 0px; margin-left: 0px;}
 	.tabbed-content .example {width: 310px; }
