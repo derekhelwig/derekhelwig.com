@@ -56,7 +56,7 @@ label {font-weight: bold;}
 #awards  {text-align: right; margin-right: 0px; positiion: relative; margin-top: 25px;}
 #awards img {margin-left: 40px;}
 #awards  h2 {color: #0375B9; margin-top: 50px; font-size: 30px; position: relative;}
-#awards h3 {color: #9A9CA1; font-size: 20px; position: relative; top: -30px; left:-10px; white-space: nowrap;}
+#awards .subTitle {color: #9A9CA1; font-size: 20px; position: relative; top: -30px; left:-10px; white-space: nowrap;}
 #awards .header{height: 20px;}
 
 
@@ -645,7 +645,7 @@ a:hover.no-underline {
 	#requestQuote .btn-large {font-size: 14px;}
 	
 	#awards  h2 {font-size: 24px; left: -10px;}
-	#awards h3 {font-size: 16px; left: -22px; top: -38px;}
+	#awards .subTitle {font-size: 16px; left: -22px; top: -38px;}
 	#awards .btn-large {left: 40px; top: -50px;}
 	#awards img {margin-top: 20px; margin-left: 25px;}
 	.icon-trophy-container{margin-left: 50px; height: 125px; width: 125px;}
