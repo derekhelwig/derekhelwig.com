@@ -12,6 +12,7 @@ html {overflow-y: scroll;}
 label {font-weight: bold;}
 
 .hiddenHeader {height: 0px; width: 0px; overflow: hidden; margin: 0px;}
+.upgradeBrowser{background-color: #FFEC8B; margin-bottom: 15px; text-align: center;}
 
 .ss-form-container{background-color: #fff; padding: 30px; width:600px; margin-right: 30px; margin-bottom: 30px;}
 .ss-form-container textarea{width:330px;}
@@ -123,6 +124,10 @@ h2, h3 {
 .well h2, h3 {
 	white-space: normal;
 }
+
+.well .btn {margin-top: 20px;}
+.well .buttonContainer {text-align: right; margin: 20px 0px 0px 0px}
+.well .buttonContainer .btn {margin: 0px;}
 
 #header .row {
 	margin-bottom: 10px;

@@ -38,10 +38,18 @@
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+     <style>
+      	body {padding-top: 0px;}
+      </style>
     <![endif]-->
 </head>
 <body>
 	<div id="fb-root"></div>
+	<!--[if lt IE 9]>
+		<div class="upgradeBrowser">
+			Your browser is out of date.  Your experience on this site, and most web sites, can be improved by <a href="/support/upgrade.html">upgrading</a>.
+		</div>
+	<![endif]-->
 	<script>
 	  window.fbAsyncInit = function() {
 	    // init the FB JS SDK
@@ -99,7 +107,7 @@
 		             	<div class="nav-collapse collapse">
 			            	<ul class="nav">
 			              		<li><a href="/">Home<br/><i class="icon-home header-icon"></i></a></li>
-			              		<li ><a href="../services">Services<br/><i class="icon-cogs header-icon"></i></a></li>
+			              		<li ><a href="../services">Services<br/><i class="icon-bolt header-icon"></i></a></li>
 				            	<li><a href="http://blog.derekhelwig.com">Blog<br/><i class="icon-blogger header-icon"></i></a></li>
 				            	<li><a href="../contact">Contact<br/><i class="icon-envelope-alt header-icon"></i></a></li>
 				            	<li class="active"><a href="../about">About<br/><i class="icon-question-sign header-icon"></i></a></li>

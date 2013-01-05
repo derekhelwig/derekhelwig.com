@@ -39,11 +39,19 @@
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+       <style>
+      	body {padding-top: 0px;}
+      </style>
     <![endif]-->
 </head>
 
 <body>
 	<div id="fb-root"></div>
+		<!--[if lt IE 9]>
+		<div class="upgradeBrowser">
+			Your browser is out of date.  Your experience on this site, and most web sites, can be improved by <a href="/support/upgrade.html">upgrading</a>.
+		</div>
+	<![endif]-->
 	<script>
 	  window.fbAsyncInit = function() {
 	    // init the FB JS SDK
