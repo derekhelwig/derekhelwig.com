@@ -56,7 +56,7 @@ label {font-weight: bold;}
 #awards  {text-align: right; margin-right: 0px; positiion: relative; margin-top: 25px;}
 #awards img {margin-left: 40px;}
 #awards  h2 {color: #0375B9; margin-top: 50px; font-size: 30px; position: relative;}
-#awards .subTitle {color: #9A9CA1; font-size: 20px; position: relative; top: -30px; left:-10px; white-space: nowrap;}
+#awards .subTitle {color: #9A9CA1; font-size: 20px; position: relative; margin: 10px 0px; top: -30px; left:-10px; white-space: nowrap; line-height: 40px; font-weight:bold;}
 #awards .header{height: 20px;}
 
 
