@@ -92,7 +92,7 @@ label {font-weight: bold;}
 .ItemContent {color: #3E3E3E; font-size: 14px; margin-top: 10px;}
 .hero-unit .ItemContent p {color: #3E3E3E; font-size: 14px; line-height: 20px;}
 .ItemDate {color: #AAAAAA; font-size: 12px; }
-.rss-content {margin: 60px 20px 0px;}
+.rss-content {margin: -120px 20px 0px; float: left;}
 .rss-content .span1 {text-align: left; padding-left: 10px;}
 
 #mobileHighlights{padding: 0px; text-align: left;
