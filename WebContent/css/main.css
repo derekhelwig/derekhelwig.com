@@ -633,6 +633,7 @@ a:hover.no-underline {
 	.contactInfo .socialMedia{display:none;}
 	
 	.devices img{position: relative; top:-50px; }
+	.rss-content {margin-top: -180px;}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -666,6 +667,7 @@ a:hover.no-underline {
 	#aboutMe h2 {font-size: 1.8em;}
 
 	#divRss {top: -59px;}	
+	.rss-content {margin-top: -310px;}
 	
 	.businessCard{display:none;}
 	.contactInfo{margin-top: 20px;}
@@ -701,6 +703,7 @@ a:hover.no-underline {
 	
 	.contactInfo{margin-left: 20px;}
 	.ss-form-container{width: 623px;}
+	.rss-content {margin-top: 65px;}
 }
 
 @media (max-width: 495px) {
